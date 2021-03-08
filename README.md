@@ -34,6 +34,6 @@
 ## How to record the laps
 1. Just click on Lap button to record the lap.
 
-![Record Laps](./images/Laps.PNG)
+![Record Laps](./images/laps.PNG)
 
 2. To clear all the laps just click on Clear All. It will clear all the laps.
