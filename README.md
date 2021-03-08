@@ -18,7 +18,7 @@
 
 3. Click on Set This to set the current background.
 
-## How to change the Stopwatch
+## How to change the Stopwatch Design
 1. Just click on Switch button to change the design of Stopwatch.
 
 ![Switch Clock](./images/switchclock.PNG)
