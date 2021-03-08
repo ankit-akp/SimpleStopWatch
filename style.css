@@ -1,0 +1,135 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: black; */
+    color: white;
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url('./images/dark-hexagonal-background-with-gradient-color_79603-1410.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+    
+}
+
+.watch{
+    
+    font-family: 'digital-clock-font';
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.outer-circle{
+    
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /* background-color: rgb(23, 168, 235); */
+    background: linear-gradient(-45deg,rgb(7, 8, 68),orange,rgb(182, 64, 9),rgb(7, 8, 68));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-circle{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-color: rgb(0, 3, 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.laps{
+    
+    list-style: none;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.lap-item{
+    
+    text-align: center;
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.text{
+    color: white;
+}
+
+#time{
+    font-size:40px;
+}
+
+.button{
+    /* margin: 5px; */
+    border:2px solid white;
+}
+.button-wrapper{
+    margin-top:25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time-stamp{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.lap-clear-button{
+    
+    position:fixed; 
+    z-index: 1000;
+     bottom: 10px;
+    
+}
+
+.changeColor{
+    background: linear-gradient(-45deg,#5c1803,orange,rgb(0, 81, 255),rgb(74, 27, 136),rgb(182, 64, 9),rgb(7, 8, 68));
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient{
+    
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+/* #switchBtn{
+    right:0;
+} */
+
+#setBg{
+    float: right;
+}
+@media(max-width:1536px){
+    .lap-item{
+        width: 20%; 
+    }
+}
+
+@media(max-width:500px){
+    .lap-item{
+        width: 50%;
+    }
+}
