@@ -1,8 +1,8 @@
-#STOPWATCH
-##First Look
+# STOPWATCH
+## First Look
 ![First Loook](./images/InitialPhoto.PNG)
 
-##About
+## About
 ```
 1. This is a simple stopwatch in which you can count time for any event.
 2. You can record laps here.
