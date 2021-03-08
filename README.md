@@ -23,7 +23,7 @@
 
 ![Switch Clock](./images/switchclock.PNG)
 
-## How to start/Stop/Reset the stopwatch
+## How to Start/Stop/Reset the stopwatch
 1. Click on start to start counting.
 
 ![Start Clock](./images/start.PNG)
